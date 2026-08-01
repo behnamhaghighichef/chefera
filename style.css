@@ -26,10 +26,14 @@ border-bottom:1px solid rgba(255,255,255,.1);
 }
 
 .logo{
-font-size:30px;
-font-weight:bold;
-color:#D4AF37;
-letter-spacing:2px;
+display:flex;
+align-items:center;
+}
+
+.logo img{
+height:70px;
+width:auto;
+display:block;
 }
 
 nav a{
